@@ -1,7 +1,7 @@
 /* colors */
 /* Basic settings */
 html {
-  font-size: 10px;
+  font-size: 1rem;
 }
 /* Typografy */
 section {
@@ -80,8 +80,17 @@ main {
   border-radius: 1rem;
   border: #0a53be;
 }
+.text-blur {
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.text-blur-content {
+  color: #ffffff;
+  padding: 1rem 3rem;
+  display: inline-block;
+}
 .box {
   background-color: rgba(0, 0, 0, 0.32);
   height: 100%;
-  width: 100%;
 }
