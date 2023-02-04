@@ -1,7 +1,7 @@
 /* colors */
 /* Basic settings */
 html {
-  font-size: 1rem;
+  font-size: 10px;
 }
 /* Typografy */
 section {
@@ -51,9 +51,12 @@ main {
   margin-top: 2rem;
 }
 .button {
+  font-weight: 500;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   width: 100%;
   font-size: 1rem;
-  background-color: #1c82ad;
+  background-color: #265026;
   color: #ffffff;
   padding: 1rem 3rem;
   border-radius: 1rem;
@@ -61,9 +64,12 @@ main {
   text-transform: uppercase;
 }
 .button-block {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-weight: 500;
   margin-left: 2rem;
   font-size: 0.9rem;
-  background-color: #1c82ad;
+  background-color: #265026;
   color: #ffffff;
   padding: 1rem 3rem;
   border-radius: 1rem;
@@ -73,8 +79,25 @@ main {
 .link {
   color: #000;
 }
+.link-w {
+  color: #fff3cd;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.link-b {
+  color: #fff3cd;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 .size {
-  height: 1080px;
+  height: 600px;
+}
+.size-s2 {
+  height: 600px;
+}
+.size-s3 {
+  height: 700px;
 }
 .infa {
   border-radius: 1rem;
@@ -86,11 +109,14 @@ main {
   font-size: 2rem;
 }
 .text-blur-content {
+  font-weight: 100;
+  font-size: 2rem;
   color: #ffffff;
   padding: 1rem 3rem;
   display: inline-block;
 }
 .box {
-  background-color: rgba(0, 0, 0, 0.32);
+  background-color: rgba(0, 0, 0, 0.77);
   height: 100%;
+  border-radius: 1rem;
 }

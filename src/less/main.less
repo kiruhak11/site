@@ -1,14 +1,14 @@
 /* colors */
-@btn-color: #1C82AD;
+@btn-color: #265026;
 @icons-color: #00337C;
 @text-color: #13005A;
 @dangure-color: #ff0000;
 @light-color: #fff;
-@dark-color: rgba(0, 0, 0, 0.32);
+@dark-color: rgba(0, 0, 0, 0.77);
 
 /* Basic settings */
 html {
-	font-size: 1rem;
+	font-size: 10px;
 }
 /* Typografy */
 section {
@@ -65,6 +65,8 @@ main {
 	margin-top: 2rem;
 }
 .button {
+	font-weight: 500;
+	flex-wrap: nowrap;
 	width: 100%;
 	font-size: 1rem;
 	background-color: @btn-color;
@@ -75,6 +77,8 @@ main {
 	text-transform: uppercase;
 }
 .button-block{
+	flex-wrap: nowrap;
+	font-weight: 500;
 	margin-left: 2rem;
 	font-size: 0.9rem;
 	background-color: @btn-color;
@@ -86,11 +90,30 @@ main {
 }
 .link {
 	color: #000;
+	&-w{
+		color: #fff3cd;
+		display: inline-block;
+		font-size: 1.5rem;
+	}
+	&-b{
+		color: #fff3cd;
+		display: inline-block;
+		font-size: 1.5rem;
+		padding: 1rem;
+	}
 }
 
+
 .size{
-	height: 1080px;
+	height: 600px;
+	&-s2{
+		height: 600px;
+	}
+	&-s3{
+		height: 700px;
+	}
 }
+
 
 .infa {
 	border-radius: 1rem;
@@ -101,13 +124,16 @@ main {
     padding: 2rem;
     font-size: 2rem;
     &-content{
+		font-weight: 100;
+		font-size: 2rem;
         color: @light-color;
         padding: 1rem 3rem;
-        display: inline-block;
+		display: inline-block;
     }
 }
 
 .box{
 	background-color: @dark-color;
 	height: 100%;
+	border-radius: 1rem;
 }
